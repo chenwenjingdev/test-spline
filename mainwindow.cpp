@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
     std::vector<double> X = {10.0, 20.0, 25.0, 30.0, 50.0}; // must be increasing
     std::vector<double> Y = {1550.0, 1552.0, 1555.0, 1550.0, 1551.0};
 
-    // 原始数据
+    // origin data
     {
         QVector<double> x, y;
         for (int i = 0; i < X.size(); ++i) {
@@ -39,7 +39,7 @@ MainWindow::MainWindow(QWidget *parent)
         customPlot->yAxis->setRange(1545, 1560);
     }
 
-    // 样条插值数据
+    // cubic spline
     {
         tk::spline s(X, Y);
         QVector<double> x, y;
