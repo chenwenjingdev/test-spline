@@ -18,3 +18,8 @@ Thanks to these third-party dependenies, include **simple cubic spline interpola
 测试的环境为：**Qt 5.12.2**, **MSVC 2019 64Bit**.
 
 项目建立在另外两个第三方开源库之上，**simple cubic spline interpolation library**, **qcustomplot**，一并表示感谢！
+
+
+## Demo
+
+![demo](demo.png)
