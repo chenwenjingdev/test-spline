@@ -4,7 +4,7 @@ The demo shows how to achieve the function of cubic spline interpolation, and dr
 
 this is a demo created by **Qt creator**, you can open the ***.pro** file to build this demo.
 
-It's tested in the environment of **Qt 5.12.2**, **MSVC 2019 64Bit**.
+It's tested in the environment of **Qt 5.15.2**, **MSVC 2019 64Bit**.
 
 Thanks to these third-party dependenies, include **simple cubic spline interpolation library**, **qcustomplot**.
 
@@ -15,7 +15,7 @@ Thanks to these third-party dependenies, include **simple cubic spline interpola
 
 本工程在 **Qt creator**中创建, 可以直接打开 ***.pro** file 进行查看和编译.
 
-测试的环境为：**Qt 5.12.2**, **MSVC 2019 64Bit**.
+测试的环境为：**Qt 5.15.2**, **MSVC 2019 64Bit**.
 
 项目建立在另外两个第三方开源库之上，**simple cubic spline interpolation library**, **qcustomplot**，一并表示感谢！
 
